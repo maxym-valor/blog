@@ -4,7 +4,9 @@ import styles from './app.module.css';
 export function App() {
   return (
     <>
-      <div>Welcome</div>
+      <div>
+        <div className="font-serif hover:font-mono">Welcome</div>
+      </div>
     </>
   );
 }
